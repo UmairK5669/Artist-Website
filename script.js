@@ -69,7 +69,7 @@ var form = document.getElementById("my-form");
       scrollProgress.addEventListener("click", () => {
         document.documentElement.scrollTop = 0;
       });
-      scrollProgress.style.background = `conic-gradient(#0f08cf ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+      scrollProgress.style.background = `conic-gradient(#1aff00 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
     };
     
     window.onscroll = calcScrollValue;
